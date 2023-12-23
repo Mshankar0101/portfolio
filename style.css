@@ -126,7 +126,7 @@ button a{
     display: flex;
     flex-direction: column; 
     position: relative;
-    background: linear-gradient(to bottom right, rgba(0,0,0, 0.9), rgba(36,11,54, 0.8), rgba(195,20,50,0.9)), url("https://i.imgur.com/3vacZxN.jpg") center no-repeat;
+    background: linear-gradient(to bottom right, rgba(0,0,0, 0.9), rgba(36,11,54, 0.8), rgba(195,20,50,0.9)), url("background2.jpg") center no-repeat;
     background-size: cover;
   }
   
@@ -275,6 +275,31 @@ button a{
   
   
   @media screen and (max-width: 960px) {
+   
+   .titlepic .profilePic{
+     height: 15rem;
+     width: 15rem;
+    }
+    .text , .btn{
+      margin: 1rem;
+    }
+
+   .text p{
+     font-size: 1rem;
+   }
+
+    button{
+      margin: 0.5rem;
+      padding: 0.5rem 0.6rem;
+     }
+
+    .skills img{
+      height:15vh;
+      width: 15vh;
+      margin: 2rem;
+    }
+
+
     .contact-content {
       display: flex;
       flex-direction: column;
@@ -289,7 +314,7 @@ button a{
     }
     
     #form-title {
-      margin: 3rem auto;
+       margin: 3rem auto;
     }
     
     .contact-header{
@@ -297,7 +322,8 @@ button a{
     }
     
     #co-title {
-      font-size: 1rem;
+       font-size: 1rem;
+
     }
     
     #co-text {
@@ -311,7 +337,7 @@ button a{
   
   @media screen and (min-width: 960px) {
     .form-field {
-      width: 125%;
+        width: 125%;
     }
     
     #form-title {
@@ -324,6 +350,7 @@ button a{
     
     .contact-header{
       margin: 7rem 7rem 3rem 7rem;
+      
     }
     
     .contact-info {
